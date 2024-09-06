@@ -1,0 +1,83 @@
+ 
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e2dbdb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#inputbox {
+    height: 3rem;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 3rem;
+    width: 3.3rem; /* Fixed button width */
+    border-radius: 8px;
+    border: none;
+    background-color: #d3d3d3;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b3b3b3;
+}
+
+.box {
+    background-color: #6c757d;
+    color: white;
+}
+
+.box:hover {
+    background-color: #495057;
+}
+
+@media (max-width: 500px) {
+    button {
+        height: 2.5rem;
+        width: 3.3rem;
+        font-size: 1rem;
+    }
+}
